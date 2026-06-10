@@ -1,7 +1,7 @@
 package numa
 
 import (
-	"github.com/intel-go/cpuid"
+	"github.com/klauspost/cpuid/v2"
 )
 
 var fastway = cpuid.HasFeature(cpuid.RDTSCP)
