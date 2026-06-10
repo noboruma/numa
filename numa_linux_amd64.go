@@ -4,7 +4,7 @@ import (
 	"github.com/klauspost/cpuid/v2"
 )
 
-var fastway = cpuid.HasFeature(cpuid.RDTSCP)
+var fastway = cpuid.CPU.Supports(cpuid.RDTSCP)
 
 func getcpu()
 
