@@ -1,6 +1,6 @@
 module github.com/noboruma/numa
 
-go 1.22
+go 1.27
 
 require (
 	github.com/klauspost/cpuid/v2 v2.3.0
